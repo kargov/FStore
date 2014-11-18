@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd"
+>
+
+<hibernate-mapping>
+
+	<class name="net.xdwander.business.domain.Item" table="item">
+		
+		<id name="id" column="id" access="field">
+              <generator class="native"/>
+		</id>
+			
+		<version name="version" column="version" access="field"/>
+		<property name="name" column="name"/>	
+		<property name="price" column="price" />
+		<property name="picture" column="picture" />	
+	</class>
+	
+</hibernate-mapping>

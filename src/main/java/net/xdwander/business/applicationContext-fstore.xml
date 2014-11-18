@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN//EN"
+    "http://www.springframework.org/dtd/spring-beans.dtd">
+    
+<beans>
+
+<!-- 	<bean id="placeholderConfig" class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer"> -->
+<!-- 	  <property name="location" value="/WEB-INF/fstore.properties"/> -->
+<!-- 	</bean> -->
+
+<!-- 	<bean id="configPropertiesBean" class="org.springframework.beans.factory.config.PropertiesFactoryBean">   -->
+<!-- 		<property name="location" value="/WEB-INF/fstore.properties"/>     -->
+<!-- 	</bean> -->
+	
+<!--     <bean id="dataSource" class="org.springframework.jdbc.datasource.DriverManagerDataSource"> -->
+<!--         <property name="driverClassName"><value>${db.driverClassName}</value></property> -->
+<!--         <property name="url"><value>${db.url}</value></property> -->
+<!--         <property name="username"><value>${db.username}</value></property> -->
+<!--         <property name="password"><value>${db.password}</value></property> -->
+<!--     </bean> -->
+    
+<!--     <bean id="sessionFactory"  -->
+<!--     	class="org.springframework.orm.hibernate3.LocalSessionFactoryBean"> -->
+<!--         <property name="dataSource"> -->
+<!--         	<ref bean="dataSource"/> -->
+<!--         </property> -->
+<!--         <property name="mappingResources"> -->
+<!--         	<list> -->
+<!-- 				<value>net/xdwander/business/hibernate3/mappings/Item.hbm.xml</value> -->
+<!--             </list> -->
+<!--         </property> -->
+<!--         <property name="hibernateProperties"> -->
+<!--         	<ref bean="configPropertiesBean"/> -->
+<!--         </property> -->
+<!--     </bean> -->
+    
+      <!-- Transaction manager for a single Hibernate SessionFactory (alternative to JTA) -->
+<!--      <bean id="txManager"  -->
+<!--     	class="org.springframework.orm.hibernate3.HibernateTransactionManager"> -->
+<!--         <property name="sessionFactory"> -->
+<!--         	<ref local="sessionFactory"/> -->
+<!--         </property> -->
+<!--     </bean> -->
+
+<!-- 	<bean id="txProxyTemplate" abstract="true" -->
+<!-- 		class="org.springframework.transaction.interceptor.TransactionProxyFactoryBean"> -->
+<!-- 	  <property name="transactionManager" ref="txManager"/> -->
+<!-- 	  <property name="transactionAttributeSource"> -->
+<!-- 	    <bean class="org.springframework.transaction.annotation.AnnotationTransactionAttributeSource"/> -->
+<!-- 	  </property> -->
+<!-- 	</bean> -->
+	
+<!-- 	<bean id="itemService" parent="txProxyTemplate"> -->
+<!-- 	  <property name="target"> -->
+<!-- 	 	<bean class="net.xdwander.business.services.ItemService"> -->
+<!-- 			<property name="itemDAO"> -->
+<!-- 				<ref bean="itemDAO"/> -->
+<!-- 			</property> -->
+<!-- 		</bean> -->
+<!-- 	  </property> -->
+<!-- 	</bean> -->
+	
+<!-- 	<bean id="itemDAO" parent="txProxyTemplate"> -->
+<!-- 	  <property name="target"> -->
+<!-- 	 	<bean class="net.xdwander.business.hibernate3.dao.ItemDAO"> -->
+<!-- 			<property name="sessionFactory"> -->
+<!-- 				<ref bean="sessionFactory"/> -->
+<!-- 			</property> -->
+<!-- 		</bean> -->
+<!-- 	  </property> -->
+<!-- 	</bean> -->
+	
+</beans>

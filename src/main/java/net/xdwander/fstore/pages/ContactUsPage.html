@@ -1,0 +1,77 @@
+<html>
+<head></head>
+<body>
+	<wicket:extend>
+		<div id="contact_us_from_container">
+			<ul class="products_contact_us">
+				<li>
+					<div class="contact_us_page_contacts">
+						<span class="formTitle"> Contact us</span>
+						<div class="rte">
+							<table>
+								<tr>
+									<td id="contact_us_customer_center">
+										<p>
+											<strong>Customer Center</strong><br> Tel: +47 24 48 58 24<br>
+											&nbsp;
+										</p>
+									</td>
+								</tr>
+							</table>
+						</div>
+					</div>
+				</li>
+				<li>
+					<div id="products_contact_us" class="form">
+						<span class="formTitle"> Send Us Message</span>
+						<form class="form_menu" wicket:id="contact_us_form">
+							<table>
+								<tr>
+									<td><label><span wicket:id="your_name_label"></span></label>
+									</td>
+								</tr>
+								<tr>
+									<td><input class="form_input" type="text"
+										wicket:id="your_name_input"></input> <span
+										wicket:id="name_feedback" class="feedback_error_message"></span>
+									</td>
+								</tr>
+								<tr>
+									<td><label><span wicket:id="your_email_label"></span></label>
+									</td>
+								</tr>
+								<tr>
+									<td><input class="form_input" type="text"
+										wicket:id="your_email_input"></input> <span
+										wicket:id="email_feedback" class="feedback_error_message"></span>
+									</td>
+								</tr>
+								<tr>
+									<td><label><span wicket:id="your_message_label"></span></label>
+									</td>
+								</tr>
+								<tr>
+									<td><textarea id="text_area" class="inputFieldComment"
+											type="text" wicket:id="your_message_input"></textarea></td>
+									<td><span wicket:id="message_feedback"
+										class="feedback_error_message"></span></td>
+								</tr>
+								<tr>
+									<td><input wicket:id="submit_button" class="submit"
+										style="float: right;" value="Send Us Message" type="submit">
+									</td>
+									<td style="width: 25px;"></td>
+								</tr>
+								<tr>
+									<td><span wicket:id="resultLabel" id="confirmation"></span>
+									</td>
+								</tr>
+							</table>
+						</form>
+					</div>
+				</li>
+			</ul>
+		</div>
+	</wicket:extend>
+</body>
+</html>

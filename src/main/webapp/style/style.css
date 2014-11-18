@@ -1,0 +1,596 @@
+#hd {
+	position: absolute;
+	top:30px;
+	left:230px;
+}
+
+a img {
+ border:none;
+}
+
+a {
+	text-decoration: none;
+}
+
+.line {
+	margin-top: 40px;
+}
+
+* {
+	margin: 0;
+}
+
+html {
+	background: #b7b8bc url(../images/crosshatch-stone.jpg) center;
+}
+
+body {
+	font: 15px/24px "ff-dagny-web-pro-1","ff-dagny-web-pro-2", sans-serif;
+	margin: 2% auto;
+	width: 1152px;
+	background-color: #f8f8f8;
+	background: #f8f8f8 -webkit-gradient(linear, left bottom, left top, from(#f8f8f8), to(#e5e7eb)) repeat-x;
+	background: #f8f8f8 -webkit-linear-gradient(bottom, #f8f8f8 40%, #e5e7eb) repeat-x;
+	background: #f8f8f8 -moz-linear-gradient(bottom, #f8f8f8 40%, #e5e7eb) repeat-x;
+	background: #f8f8f8 -ms-linear-gradient(bottom, #f8f8f8 40%, #e5e7eb) repeat-x;
+	background: #f8f8f8 linear-gradient(bottom, #f8f8f8 40%, #e5e7eb) repeat-x;
+	background-size: 100% 150px;
+	border-top: 1px solid #eceeef;
+	border-radius: 1px;
+	text-shadow: #fffeff 0 1px 0;
+	-webkit-box-shadow: 0 0 10px rgba(0,20,50,.25);
+	-moz-box-shadow: 0 0 10px rgba(0,20,50,.25);
+	-o-box-shadow: 0 0 10px rgba(0,20,50,.25);
+	box-shadow: 0 0 10px rgba(0,20,50,.25);
+}
+
+.wrapper {
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+	margin: 0 auto -4em;
+}
+
+#global-footer {
+	margin-top: 100px;
+	clear: both;
+	padding: 36px 0px 12px 0px;
+	font: 13px/20px "ff-dagny-web-pro-1","ff-dagny-web-pro-2", Helvetica, Arial, sans-serif;
+	background-color: #d5d7db;
+}
+
+.col_12 {
+	display: block;
+	text-align: center;
+}
+
+#global-footer p {
+	margin: 0 0 24px;
+	color: rgba(0,0,0,.5);
+}
+
+#copyright {
+	width: 100%;
+	text-align: center;
+	clear: both;
+	background: #444;
+	height: 21px;
+}
+
+#copyright p {
+	font-family: "p22-underground-1","p22-underground-2", century gothic, futura;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-size: 10px;
+	color: #fff;
+	margin: 0;
+}
+
+#menu-wrapper ul li h4 a {
+	font-size: 40px;
+	font-weight: 500;
+	letter-spacing: 2px;
+	color: #404040;
+	margin-bottom: 10px;
+}
+
+#more_home li, #more_about_us li, #more_chairs li,#more_tables li,#more_contact_us li  {
+	display: block;
+	font-family: "p22-underground-1","p22-underground-2", century gothic, futura;
+	text-transform: uppercase;
+	width: 280px;
+	margin-bottom: 10px;
+	font-size: 12px;
+	letter-spacing: 1px;
+	margin-left: 75px;
+}
+
+#more_home ul, #more_about_us ul, #more_chairs ul,#more_tables ul,#more_contact_us ul   {
+	list-style-type: none;
+}
+
+#more_home a, #more_about_us a, #more_chairs a,#more_tables a,#more_contact_us a {
+	text-decoration: none;
+	color: #000;
+	padding: 0;
+	margin: 0;
+	cursor: pointer;
+}
+
+.top_menu {
+	margin-left: 4%;
+	margin-top: 10px;
+}
+
+.page_header_contact_us {
+	position: absolute;
+	width: 400px;
+	top: 250px;
+	left: 600px;
+}
+
+.pageContent {
+	width: 1152px;
+	margin-top : 20px;
+	margin-left: 3%;
+	font-family:"Myriad Pro", "Trebuchet MS", sans-serif;
+	font-size:14px;
+}
+
+#company_mission {
+	clear: both;
+	margin-top: -100px;
+}
+
+#company_vision{
+	clear: both;
+	margin-top: -50px;
+}
+
+#company_values {
+	clear: both;
+	margin-top: 50px;
+}
+
+.textHeading {
+	position: relative;
+	float: left;
+	margin-top: 20px;
+	font-size: larger;
+	font-weight: bold;
+	border-bottom: 2px solid #0B75AF;
+}
+
+#textHeading_fix {
+	position: relative;
+	float: left;
+	margin-top: 70px;
+	font-size: larger;
+	font-weight: bold;
+	border-bottom: 2px solid #0B75AF;
+}
+
+.paragraphBlock {
+	clear: both;
+	width: 800px;
+	margin-top: 5px;
+	font-size:medium;
+	text-align: justify;
+}
+
+.about_us_table_image{
+ 	margin-left: 50px;
+}
+
+.about_us_table_image_list{
+ 	margin-left: 10px;
+}
+
+.person {
+	margin-top: 10px;
+	margin-bottom: 50px;
+}
+
+.product_description_one {
+	float: left;
+}
+
+.product_description_one_t {
+	margin-top: 20px;
+	float: left;
+}
+
+.product_description_one_tables {
+	margin-top: -150px;
+	float: left;
+}
+
+.product_description_two {
+	margin-top: 30px;
+	float: left;
+}
+
+.product_details {
+	margin-left: 50px;
+	clear: both;
+	float: left;
+}
+
+.chairs_pix_block{
+	width: 600px;
+}
+
+#changeble_image_one_s {
+	margin-left: 50px;
+}
+
+#changeble_image_two_s {
+	margin-left: 100px;
+}
+
+
+.hor-minimalist {
+	float: left;
+	font-weight:bold;
+	font-size: 12px;
+	width: 480px;
+	border-collapse: collapse;
+	text-align: left;
+	margin: 50px 0px 0px 0px;
+}
+
+.space{
+	clear: both;
+}
+
+.tableTop {
+	vertical-align: top;
+}
+
+.table_border {
+	border-right: 1px solid black;
+	height: 50px;
+}
+
+.chairs_schema_container{
+	float:left;
+	margin-left: 100px;
+}
+
+#table_image_one_t{
+	position:relative;
+	margin-top: -400px;
+	margin-left: 550px;
+}
+
+#table_image_one_ch{
+	position:relative;
+	margin-top: -250px;
+	margin-left: 550px;
+}
+
+.tables_pix_block{
+	width: 600px;
+}
+
+.colorPicker{
+	margin-right: 10%;
+}
+
+.pickerSpace{
+	width: 25px;
+}
+
+.colorPickerLabel{
+	margin-left: 250px;
+	font-size:large;
+	font-weight: bold;
+}
+
+.prod_d_title{
+	width: 200px;
+	font-size: larger;
+	font-weight: bold;
+	border-bottom: 2px solid #0B75AF;
+}
+
+.prod_d_content{
+	margin-bottom: 40px;
+	float: left;
+	width: 450px;
+	font-size: medium;
+	text-align: justify;
+}
+
+.crayon {
+	float: left;
+	margin-left: 100px;
+}
+
+.t_crayon{
+	margin-top: 20px;
+	float: left;
+}
+
+#aboutus{
+	margin-left: 20px;
+}
+
+#chair{
+	margin-left: 5px;
+}
+
+#phone{
+	margin-left: 30px;
+}
+
+.sprite{
+	margin-bottom:-3px
+}
+
+.sprite_web{
+	border:medium;
+	border-color:black;
+	background-image:none;
+	background:url("../images/web_sprites.png");
+}
+
+.s_web_star{
+	background-position:left -8363px;
+}
+
+
+.formTitle{
+	width: 200px;
+	font-size: xx-large;
+	font-weight: bold;
+	border-bottom: 2px solid #0B75AF;
+}
+
+.form_input {
+	float: left;
+}
+
+#text_area {
+	height: 100px;
+	width: 300px;
+}
+
+.form {
+	width: 350px;
+}
+
+.feedbacklabel{
+	margin-left: 10px;
+	font-size: medium;
+	color: red;
+}
+
+.submit {
+	-moz-border-radius:4px;
+	-webkit-border-radius:4px;
+	background:#0B75AF url('images/bg-btn-blue.png') repeat-x scroll 0 0;
+	border:1px solid #39D;
+	color:#fff;
+	text-shadow:0 -1px 0 #39d;
+	padding:4px 10px 5px;
+	font-size:11px;
+	margin:0 5px 0 0;
+	font-weight:bold;
+}
+
+#confirmation {
+	color: green;
+	font-size: small;
+}
+
+#home_chairs_section {
+	width: 500px;
+}
+
+
+
+#table{
+	border: 1px solid black;
+}
+
+#separator {
+	float : left;
+	width: 100%;
+	border-top: 1px solid #d5d7db;
+}
+
+
+#homepage_product_section {
+	margin-left: 10px;
+}
+
+ul.homepage_products {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	text-indent: 0;
+	width: 1150px;
+	padding-bottom: 40px;
+	float: left;
+}
+
+ul.homepage_products > li {
+	width: 500px;
+	height: 400px;
+	padding: 8px;
+	background: #fff;
+	-webkit-border-radius: 8px;
+	margin: 8px;
+	float: left;
+	-webkit-box-shadow: 0 0 4px rgba(0,0,0,1);
+	cursor: pointer;
+	position: relative;
+}
+
+ul.homepage_products > li.home_page_space {
+	margin-left: 40px;
+	width: 0px;
+	height: 0px;
+	visibility: hidden;
+}
+
+ul.homepage_products a {
+	display: block;
+	float: left;
+	width: 100%;
+	height: 100%;
+	text-decoration: none;
+	color: black;
+}
+
+
+.homepage_product_image_chair{
+	float: left;
+	padding-top: 10px;
+	padding-left: 100px;
+}
+
+.homepage_product_image_table{
+	float: left;
+	padding-top: 10px;	
+	padding-left: 60px;
+}
+
+ul.homepage_products p.home_product_description {
+	padding-top: 40px;
+	float: right;
+	font-size: medium;
+	text-align: justify;
+}
+
+ul.homepage_products p.readMore {
+	text-align: center;
+	margin-top: 360px;
+}
+
+.homepage_title {
+	float: left;
+	font-size: larger;
+	font-weight: bold;
+}
+
+ul.homepage_products > li:hover {-webkit-box-shadow: 0 0 8px rgba(0,0,0,.4);}
+
+#company_values { width:720px; }
+#company_values ol { font-style:italic; font-family:Georgia, Times, serif; font-size:24px;}
+#company_values ol li { }
+#company_values ol li p { padding:8px; font-style:normal; font-family:  "Myriad Pro", "Trebuchet MS", sans-serif; font-size:medium; color: black; border-left: 1px solid #999; }
+#company_values ol li p em { display:block; }
+
+#contact_us_form{
+	margin-top: 80px;
+	margin-left: 200px;
+}
+
+#contact_us_image{
+	margin-left: 100px;
+}
+
+.contact_us_page_contacts {
+	margin-top: 20px;
+	margin-left: 150px;
+	float: left;
+	padding: 0 40px 0 0;
+	width: 200px;
+}
+
+.contact_us_border{
+	border-right: 1px solid black;
+	height: 400px;
+}
+
+.contact_us_page_contacts .rte {
+	padding-right: 10px;
+}
+
+.rte p {
+	font-size: 13px;
+	line-height: 19px;
+	margin-bottom: 16px;
+	color: #333;
+}
+
+.description {
+	-webkit-box-shadow: 0 0 8px rgba(0,0,0,1);
+	-webkit-border-radius: 8px;
+	background: #fff;
+}
+
+ul.products {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	text-indent: 0;
+	margin-left: -8px;
+	padding-bottom: 20px;
+	float: left;
+}
+
+ul.products > li {
+	padding: 8px;
+	margin: 8px;
+	background: #fff;
+	-webkit-border-radius: 8px;
+	float: left;
+	-webkit-box-shadow: 0 0 4px rgba(0,0,0,1);
+	position: relative;
+}
+
+ul.products_contact_us {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	text-indent: 0;
+	margin-left: 40px;
+	padding-bottom: 20px;
+	float: left;
+}
+
+#products_contact_us {
+	margin-top: 20px;
+	margin-left: 110px;
+}
+
+ul.products_contact_us > li {
+	padding: 8px;
+	margin: 8px;
+	background: #fff;
+	-webkit-border-radius: 8px;
+	float: left;
+	-webkit-box-shadow: 0 0 4px rgba(0,0,0,1);
+	position: relative;
+	width: 500px;
+	min-height: 370px;
+}
+
+#home_page_camera_position {
+	margin-left: 10px;
+	'
+}
+
+.homepage_title_new_product {
+	float: right;
+	margin-top: -390px;
+	color: white;
+	margin-right: -30px;
+	-ms-transform: rotate(35deg); /* IE 9 */
+	-webkit-transform: rotate(35deg); /* Safari and Chrome */
+	font-weight: bold;
+	text-align: center; 
+	border : 2px solid #a1a1a1;
+	padding: 5px 15px;
+	background: #41A317;
+	width: 100px;
+	border-radius: 5px;
+	border: 2px solid #a1a1a1;
+}
+
+.base_page_top_menu{
+	max-width: 750px;
+}
